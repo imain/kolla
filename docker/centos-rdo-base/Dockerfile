@@ -90,6 +90,17 @@ RUN yum install -y \
 	python-webtest \
 	python-werkzeug \
 	python-wsme \
+        openstack-glance \
+        openstack-nova \
+        openstack-nova-common \
+        python-keystoneclient \
+        python-cinderclient \
+        python-nova \
+        bridge-utils \
+        openstack-keystone \
+        python-keystoneclient \
+        rabbitmq-server \
+        hostname \
 	; yum clean all
 
 RUN mkdir -p /opt/kolla
